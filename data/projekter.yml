@@ -1,0 +1,20 @@
+enable: true
+title: Projekter
+subtitle: >
+  Ting vi har lavet
+content:
+
+  - icon: fa fa-user-astronaut
+    name: Kryptoløb
+    text: >
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+
+  - icon: fa fa-rocket
+    name: Digitalt trygt
+    text: >
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+
+  - icon: fa fa-bullhorn
+    name: Foredrag
+    text: >
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut

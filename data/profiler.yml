@@ -1,0 +1,25 @@
+enable: true
+title: Profiler
+subtitle: >
+  Vi er ...
+content:
+
+  - picture: item-img1.jpg
+    name: Maia
+    text: >
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+
+  - picture: fa fa-rocket
+    name: Aslak
+    text: >
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+
+  - picture: fa fa-bullhorn
+    name: Laura
+    text: >
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+
+  - picture: fa fa-rocket
+    name: Astronaut
+    text: >
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut

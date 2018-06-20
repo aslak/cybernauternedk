@@ -1,0 +1,25 @@
+enable: true
+title: Workshops og kurser
+subtitle: >
+  Vi er eksperter i ....
+content:
+
+  - icon: fa fa-user-astronaut
+    name: Træning af trænere
+    text: >
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+
+  - icon: fa fa-rocket
+    name: Temadage
+    text: >
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+
+  - icon: fa fa-bullhorn
+    name: Foredrag
+    text: >
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+
+  - icon: fa fa-rocket
+    name: Workshops
+    text: >
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut

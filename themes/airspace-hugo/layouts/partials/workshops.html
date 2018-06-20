@@ -1,0 +1,26 @@
+<!-- Workshops Start -->
+<section id="workshops">
+  <div class="container">
+
+    <!-- Intro -->
+    <div class="row">
+      <div class="section-title">
+        <h2>{{ .Site.Data.workshops.title }}</h2>
+        <p>{{ .Site.Data.workshops.subtitle }}</p>
+      </div>
+    </div>
+
+    <!-- Content -->
+    <div class="row">
+      {{ range .Site.Data.workshops.content }}
+      <div class="col-sm-6 col-md-3">
+        <div class="workshops-item">
+          <i class="{{ .icon }}"></i>
+          <h4>{{ .name }}</h4>
+          <p>{{ .text }}</p>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>

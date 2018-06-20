@@ -1,0 +1,9 @@
++++
+title = "Maia Kahlke Lorentzen"
+summary = "Ninja og træner af pokémon"
+date = "2015-08-03T13:39:46+02:00"
+image = "item-img1.jpg"
+weight = 2
++++
+
+Har lavet lidt af hvert

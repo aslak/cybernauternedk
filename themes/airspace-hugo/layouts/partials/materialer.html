@@ -1,0 +1,26 @@
+<!-- Materialer Start -->
+<section id="intro">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7 col-sm-12">
+        <div class="block">
+          <div class="section-title">
+            <h2>MATERIALER</h2>
+	    <dl>
+	      {{ range (where .Data.Pages "Section" "materialer").ByWeight }}
+	      <dt><h4>{{ .Params.title }}</h4></dt>
+	      <dd>{{ .Params.summary }}</dd>
+	      {{ end }}
+	    </dl>
+          </div>
+          <p>Tekst</p>
+        </div>
+      </div><!-- .col-md-7 close -->
+      <div class="col-md-5 col-sm-12">
+        <div class="block">
+          <img src="img/wrapper-img.png" alt="Img">
+        </div>
+      </div><!-- .col-md-5 close -->
+    </div>
+  </div>
+</section>
