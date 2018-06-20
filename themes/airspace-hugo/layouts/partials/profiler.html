@@ -17,7 +17,7 @@
       <div class="col-sm-6 col-md-3">
         <div class="profiler-item">
           <img src="../img/{{ .Params.image }}" class="profile-picture" />
-          <h4>{{ .Params.title }}</h4>
+          <a href="{{ .Permalink }}" class="bold"><h4>{{ .Params.title }}</h4></a>
           <p>{{ .Params.summary }}</p>
         </div>
       </div>
