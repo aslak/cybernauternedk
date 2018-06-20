@@ -1,5 +1,5 @@
 title = "Cybernauterne"
-baseURL = "https://cybernauterne.dk"
+baseURL = "https://cybernauterne.dk/"
 languageCode = "da-dk"
 theme = "airspace-hugo"
 
@@ -109,4 +109,4 @@ theme = "airspace-hugo"
       email = "Email: contact@mail.com"
       phone = "Phone: +88 01672 506 744"
     [params.contact.gmaps]
-      title = "We Also Count in Google Maps"
+      title = ""
