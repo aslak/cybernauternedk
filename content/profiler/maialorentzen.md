@@ -1,9 +1,7 @@
 +++
 title = "Maia Kahlke Lorentzen"
-summary = "Ninja og træner af pokémon"
+summary = "Maia har en baggrund i Amnesty International og Greenpeace, hvor hun arbejdede med digital mobilisering og aktivisme. Hun er en af grundlæggerne af tech-aktivist netværket DO:TOPIA, som arrangerer sikkerheds og programmerings-workshops særligt henvendt til kvinder og minoriteter. Hun beskæftiger sig desuden med online had-fællesskaber, digitial chikane og hvordan man modvirker det. Maia er desuden er erfaren taler og oplægsholder, med et talent for at designe involverende workshops og læringsforløb. "
 date = "2015-08-03T13:39:46+02:00"
-image = "item-img1.jpg"
+image = "profiler/Maia .jpg"
 weight = 2
 +++
-
-Har lavet lidt af hvert
