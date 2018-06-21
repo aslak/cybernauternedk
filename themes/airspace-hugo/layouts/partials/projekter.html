@@ -15,9 +15,13 @@
       {{ range (where .Data.Pages "Section" "projekter").ByWeight }}
       <div class="col-sm-4 col-md-4">
         <div class="projekter-item">
-	  <img src="img/{{ .Params.image }}" />
-          <h4>{{ .Params.title }}</h4>
-          <p>{{ .Params.summary  }}</p>
+	  <div class="projekter-image">
+	    <a href="{{ .Permalink }}"><img src="{{ .Params.image }}" /></a>
+	  </div>
+	  <div class="projekter-content">
+          <a href="{{ .Permalink }}" class="bold"><h4>{{ .Params.title }}</h4></a>
+          <p><a href="{{ .Permalink }}">{{ .Params.summary  }}</a></p>
+	  </div>
         </div>
       </div>
       {{ end }}

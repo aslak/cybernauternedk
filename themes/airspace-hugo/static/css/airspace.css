@@ -159,9 +159,10 @@ font header .navbar-default .navbar-nav li a:hover {
   color: #7B7B7B;
   padding-top: 20px;
 }
-#intro .block img {
-  padding-left: 40px;
-  width: 100%;
+#intro .wrapper-img {
+    padding-left: 40px;
+    width: 100%;
+
 }
 #intro .section-title {
   margin-bottom: 0px;
@@ -206,11 +207,6 @@ font header .navbar-default .navbar-nav li a:hover {
 #profiler .profiler-item {
   padding-bottom: 30px;
 }
-#profiler .profile-picture {
-    width: 200px;
-    height: 200px;
-    border-radius:50%;
-}
 #profiler .profiler-item i {
   font-size: 60px;
   color: #4A4656;
@@ -220,6 +216,7 @@ font header .navbar-default .navbar-nav li a:hover {
   margin: 0;
   color: #666;
 }
+#profiler .profiler-item a,
 #profiler .profiler-item p {
   color: #888;
   padding-top: 10px;
@@ -228,31 +225,10 @@ font header .navbar-default .navbar-nav li a:hover {
   line-height: 1.8;
 }
 
-/*--
-	profiler Start
---*/
-#profiler {
-  text-align: center;
-  padding: 90px 0;
-}
-#profiler .profiler-item {
-  padding-bottom: 30px;
-}
-#profiler .profiler-item i {
-  font-size: 60px;
-  color: #4A4656;
-}
-#profiler .profiler-item h4 {
-  padding-top: 20px;
-  margin: 0;
-  color: #666;
-}
-#profiler .profiler-item p {
-  color: #888;
-  padding-top: 10px;
-  margin: 0;
-  font-size: 14px;
-  line-height: 1.8;
+
+img.profile-picture,
+img.profiler-profilbillede {
+   border-radius: 50%;
 }
 
 /*--
@@ -301,12 +277,36 @@ font header .navbar-default .navbar-nav li a:hover {
   margin: 0;
   color: #666;
 }
+#projekter .projekter-item a,
 #projekter .projekter-item p {
   color: #888;
   padding-top: 10px;
   margin: 0;
   font-size: 14px;
   line-height: 1.8;
+}
+
+/*
+source
+http://stackoverflow.com/a/23935891/3853728
+*/
+
+.projekter-image{
+  position:relative;
+  display:inline-block;
+}
+
+.projekter-image a:after {
+  content:'';
+  position:absolute;
+  left:0; top:0;
+  width:100%; height:100%;
+  display:inline-block;
+  background: linear-gradient(to bottom, magenta, lightblue);
+  opacity: 0.3;
+}
+.projekter-image img{
+    display:block;
 }
 /*--
 /*--
@@ -480,7 +480,7 @@ font header .navbar-default .navbar-nav li a:hover {
 -----------------------------------------------*/
 /*--
 	Slider-work Start
---*/
+--*
 #global-header {
   background: url("../img/slider-bg.jpg") no-repeat;
   background-size: cover;
@@ -928,30 +928,4 @@ footer .footer-manu ul li a {
 }
 footer .footer-manu ul li a:hover {
   color: #000;
-}
-
-/*--
-	materialer Start
---*/
-#intro {
-  padding: 100px 0;
-}
-#intro .block h2 {
-  padding-top: 35px;
-  line-height: 27px;
-  margin: 0;
-}
-#intro .block p {
-  color: #7B7B7B;
-  padding-top: 20px;
-}
-#intro .block img {
-  padding-left: 40px;
-  width: 100%;
-}
-#intro .section-title {
-  margin-bottom: 0px;
-}
-#intro .section-title p {
-  padding-top: 20px;
 }
