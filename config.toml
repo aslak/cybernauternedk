@@ -61,7 +61,7 @@ theme = "airspace-hugo"
   [params.slider]
     enable = true
     title = "Cybernauterne er et netværk af eksperter"
-    subtitle = "Vi tilbyder træninger, rådgivning, workshops og foredrag om cybersikkerhed og digital dannelse."
+    subtitle = "Vi tilbyder <em>træninger</em>, <em>rådgivning</em>, <em>workshops</em> og <em>foredrag</em> om <strong>cybersikkerhed</strong> og <strong>digital dannelse</strong>."
 
   [params.wrapper]
     enable = true
