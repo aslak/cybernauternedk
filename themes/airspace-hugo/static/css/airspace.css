@@ -107,7 +107,7 @@ font header .navbar-default .navbar-nav li a:hover {
 	Slider Start
 --*/
 #slider {
-  background: url("../img/spacebanner.png") no-repeat;
+  background: url("../img/llrv.jpg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
   background-position: 10% 0%;
@@ -123,8 +123,8 @@ font header .navbar-default .navbar-nav li a:hover {
   right: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to left, magenta, pink);
-  opacity: 0.5;
+  background: linear-gradient(to bottom, #8b008b, magenta);
+  opacity: 0.92;
 }
 #slider .block {
   color: #E3E3E4;
@@ -314,7 +314,7 @@ http://stackoverflow.com/a/23935891/3853728
 	call-to-action Start
 --*/
 #call-to-action {
-  background: url("../img/call-to-action-bg.jpg") no-repeat;
+  background: url("../img/apollo-missionctrl-crop.jpg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
   padding: 70px 0px;
@@ -929,4 +929,10 @@ footer .footer-manu ul li a {
 }
 footer .footer-manu ul li a:hover {
   color: #000;
+}
+
+.icon-gradient {
+    background: linear-gradient(to top, #2F2A5E, #DE47AC);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
