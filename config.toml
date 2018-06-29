@@ -90,8 +90,8 @@ theme = "airspace-hugo"
 
   [params.call]
     enable = true
-    title = "- Cybernauterne er eksperter og det er rart at opleve."
-    paragraph = "- Anonym kursusdeltager"
+    title = ""
+    paragraph = ""
 
   [params.contact]
     enable = true

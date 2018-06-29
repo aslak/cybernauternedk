@@ -1,25 +1,26 @@
 enable: true
-title: Workshops og kurser
+title: Vi tilbyder
 subtitle: >
   Vi er eksperter i ....
+
 content:
 
   - icon: fa fa-user-astronaut
     name: Træning af trænere
     text: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+      Bliv klædt på til at undervise andre i cybersikkerhed og digital dannelse.
 
-  - icon: fa fa-rocket
+  - icon: fa fa-paper-plane
     name: Temadage
     text: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+      Sæt cybersikkerhed og digital dannelse på dagsordenen med temadage, der kombinerer debat, praktiske øvelser og oplæg.
 
   - icon: fa fa-bullhorn
     name: Foredrag
     text: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+      Vi holder foredag om cybersikkerhed, digital dannelse, algoritmernes magt, digital chikane og meget mere.
 
   - icon: fa fa-rocket
     name: Workshops
     text: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+      Bliv digitalt klar med ny viden og tekniske færdigheder på vores kreative workshops, hvor vi tager teknologien ned i øjenhøjde.

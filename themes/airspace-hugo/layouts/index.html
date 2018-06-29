@@ -22,12 +22,12 @@
 	{{ end }}
 
 
-	{{ if and .Site.Data.workshops .Site.Data.workshops.enable }}
-		{{ partial "workshops.html" . }}
-	{{ end }}
-
 	{{ if and .Site.Data.profiler .Site.Data.profiler.enable }}
 		{{ partial "profiler.html" . }}
+	{{ end }}
+
+	{{ if and .Site.Data.workshops .Site.Data.workshops.enable }}
+		{{ partial "workshops.html" . }}
 	{{ end }}
 
 	{{ if and (isset .Site.Params "call") (.Site.Params.call.enable) }}

@@ -171,6 +171,55 @@ font header .navbar-default .navbar-nav li a:hover {
 #intro .section-title p {
   padding-top: 20px;
 }
+
+/*--
+	materialer Start
+--*/
+#materialer {
+  padding: 50px 0;
+}
+
+#materialer a {
+    color: #444;
+}
+
+#materialer h4 {
+    margin-bottom: 10px;
+}
+
+#materialer .block h2 {
+  padding-top: 35px;
+  line-height: 27px;
+  margin: 0 0 30px 0;
+}
+#materialer .block p {
+    color: #7B7B7B;
+    line-height:25px;
+}
+#materialer img,
+#materialer .wrapper-img {
+    padding-left: 40px;
+    width: 100%;
+
+}
+#materialer .section-title {
+  margin-bottom: 0px;
+}
+#materialer .section-title p {
+  padding-top: 20px;
+}
+.materialer-items {
+    padding-top: 0px;
+}
+.materialer-icon i {
+    color: #bababa;
+    font-size: 25px;
+    padding-top: 15px;
+}
+.materialer-items .row:nth-child(even) {background: #f9f9f9}
+
+
+
 /*--
 	workshops Start
 --*/
