@@ -1,0 +1,28 @@
+<!-- Kontakt Start -->
+<a name="kontakt"></a>
+<section id="kontakt">
+  <div class="container">
+
+    <!-- Intro -->
+    <div class="row">
+      <div class="section-title">
+        <h2>Kontakt</h2>
+      </div>
+    </div>
+
+    <!-- Content -->
+    <div class="row">
+      {{ range (where .Data.Pages "Section" "profiler").ByWeight }}
+      <div class="col-sm-6 col-md-4">
+        <div class="kontakt-item">
+          <h4>{{ .Params.title }}</h4>
+          <p><i class="fa fa-envelope"></i> {{ .Params.email }}</p>
+	  {{ if .Params.phone }}
+	  <p><i class="fa fa-phone"></i> {{ .Params.phone }}</p>
+	  {{ end }}
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>

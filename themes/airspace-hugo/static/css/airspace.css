@@ -250,22 +250,28 @@ font header .navbar-default .navbar-nav li a:hover {
 /*--
 	profiler Start
 --*/
+#kontakt,
 #profiler {
   text-align: center;
   padding: 90px 0;
 }
+#kontakt .kontakt-item,
 #profiler .profiler-item {
   padding-bottom: 30px;
 }
+#kontakt .kontakt-item i,
 #profiler .profiler-item i {
-  font-size: 60px;
+  font-size: 15px;
   color: #4A4656;
 }
+#kontakt .kontakt-item h4,
 #profiler .profiler-item h4 {
   padding-top: 20px;
   margin: 0;
   color: #666;
 }
+#kontakt .kontakt-item a,
+#kontakt .kontakt-item p,
 #profiler .profiler-item a,
 #profiler .profiler-item p {
   color: #888;
@@ -952,6 +958,7 @@ footer {
   text-align: center;
   padding-top: 48px;
   padding-bottom: 55px;
+  margin-top: 50px;
 }
 footer p {
   font-size: 13px;
