@@ -46,10 +46,8 @@ p {
   font-size: 15px;
   line-height: 28px;
 }
-ul {
-  padding: 0;
-  margin: 0;
-  list-style: none;
+li {
+    margin-bottom: 5px;
 }
 a,
 a:active,
@@ -305,6 +303,18 @@ img.profilside-billede {
     margin-bottom: 40px;
 }
 
+#page {}
+
+#page-sidebar {
+    margin-top: 75px;
+}
+#page-sidebar i {
+    width: 100%;
+}
+
+#page-content {
+    margin-bottom: 40px;
+}
 /*--
 	service Start
 --*/

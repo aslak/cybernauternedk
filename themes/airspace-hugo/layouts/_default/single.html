@@ -12,12 +12,15 @@
 	  <section id="page" style="border: 1px dotted #ddd;">
 	    <div class="container">
 	      <div class="row">
-	        <div>
-	          <div class="block">
-	            <h1>{{ .Params.title }}</h1>
-	            <p>{{ .Content }}</p>
-	          </div>
-	        </div><!-- .col-md-7 close -->
+	        <div id="page-content" class="col-md-8 col-sd-8">
+	          <h1>{{ .Params.title }}</h1>
+	          {{ .Content }}
+	        </div>
+		<div id="page-sidebar" class="col-md-4 col-sd-4">
+		  {{ if .Params.image }}
+		     <img src="/{{ .Params.image }}" />
+		  {{ end }}
+		</div>
 	      </div>
 	    </div>
 	  </section>
