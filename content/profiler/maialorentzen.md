@@ -2,7 +2,8 @@
 title = "Maia Kahlke Lorentzen"
 summary = "Maia er digital aktivist og har en baggrund i medievidenskab med speciale i digital kommunikation."
 date = "2015-08-03T13:39:46+02:00"
-image = "profiler/maia200.jpg"
+thumbnail = "profiler/maia200.jpg"
+image = "profiler/maia500.jpg"
 email = "maia@radbonobos.org"
 weight = 2
 +++

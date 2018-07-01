@@ -7,17 +7,20 @@
 
 	{{ partial "header.html" . }}
 
-	<div class="post">
+	<div class="profil">
 	  <!-- Wrapper Start -->
 	  <section id="page" style="border: 1px dotted #ddd;">
 	    <div class="container">
 	      <div class="row">
-	        <div>
-	          <div class="block">
+		<div class="col-md-4 col-sm-4">
+	            <img src="/{{ .Params.image }}" alt="{{ .Params.title }}" class="img-fluid profilside-billede" />
+		</div>
+		<div class="profil-content col-md-8 col-sm-8">
+		  <div>
 	            <h1>{{ .Params.title }}</h1>
-	            <p>{{ .Content }}</p>
-	          </div>
-	        </div><!-- .col-md-7 close -->
+	            {{ .Content }}
+		  </div>
+		</div>
 	      </div>
 	    </div>
 	  </section>

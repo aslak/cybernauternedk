@@ -2,7 +2,8 @@
 title = "Henrik Chulu"
 summary = "Freelance journalist og underviser i digital sikkerhed"
 date = "2015-08-03T13:39:46+02:00"
-image = "profiler/henrik200.jpg"
+thumbnail = "profiler/henrik200.jpg"
+image = "profiler/henrik500.jpg"
 email = "henrikchulu@henrikchu.lu"
 +++
 

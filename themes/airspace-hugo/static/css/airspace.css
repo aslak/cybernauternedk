@@ -282,9 +282,27 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 
 
-img.profile-picture,
-img.profiler-profilbillede {
-   border-radius: 50%;
+img.profilblok-billede,
+img.profilside-billede {
+    border-radius: 50%;
+}
+
+img.profilside-billede {
+    width: 100%;
+    margin-top: 25px;
+
+}
+
+.profil #page .container {
+    margin-top: 50px;
+}
+.profil-content div {
+    margin: 0px 30px 0px 30px;
+}
+
+
+.profil-content div h1 {
+    margin-bottom: 40px;
 }
 
 /*--
@@ -992,3 +1010,5 @@ footer .footer-manu ul li a:hover {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+/* PAGE */

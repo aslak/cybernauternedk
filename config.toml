@@ -8,7 +8,7 @@ theme = "airspace-hugo"
   [[menu.header]]
     weight = 2
     name = "Vi tilbyder"
-    url = "#workshops"
+    url = "/#workshops"
   # [[menu.header]]
   #   weight = 3
   #   name = "Blog"
@@ -16,19 +16,19 @@ theme = "airspace-hugo"
   [[menu.header]]
     weight = 4
     name = "Profiler"
-    url = "#profiler"
+    url = "/#profiler"
   [[menu.header]]
     weight = 4
     name = "Projekter"
-    url = "#projekter"
+    url = "/#projekter"
 [[menu.header]]
     weight = 5
     name = "Materialer"
-    url = "#materialer"
+    url = "/#materialer"
   [[menu.header]]
     weight = 6
     name = "Kontakt"
-    url = "#kontakt"
+    url = "/#kontakt"
 
   [[menu.footer]]
     weight = 1
