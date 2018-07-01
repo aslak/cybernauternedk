@@ -28,7 +28,7 @@ theme = "airspace-hugo"
   [[menu.header]]
     weight = 6
     name = "Kontakt"
-    url = "/kontakt"
+    url = "#kontakt"
 
   [[menu.footer]]
     weight = 1
