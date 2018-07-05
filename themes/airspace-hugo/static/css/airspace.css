@@ -221,13 +221,48 @@ font header .navbar-default .navbar-nav li a:hover {
 /*--
 	workshops Start
 --*/
+
 #workshops {
-  text-align: center;
   padding: 90px 0;
 }
-#workshops .workshops-item {
-  padding-bottom: 30px;
+
+#workshops div.icon {
+  text-align:center;
 }
+
+#workshops .section-title {
+    margin-bottom:20px;
+    text-align:center;
+}
+
+#workshops .workshop-emner {
+    margin-bottom: 30px;
+}
+
+#workshops .workshop-emner ul {
+    list-style: none;
+}
+#workshops .workshop-emner li {
+    position: relative;
+    display: block;
+    float:left;
+    margin: 5px;
+    padding: 10px;
+}
+
+#workshops .workshop-emner li:nth-child(1) { background-color: magenta; }
+#workshops .workshop-emner li:nth-child(2) { background-color: yellow; }
+#workshops .workshop-emner li:nth-child(3) { background-color: cyan; }
+#workshops .workshop-emner li:nth-child(4) { background-color: magenta; }
+#workshops .workshop-emner li:nth-child(5) { background-color: yellow; }
+#workshops .workshop-emner li:nth-child(6) { background-color: cyan; }
+
+#workshops .workshops-item {
+    padding: 50px;
+    background-color: #efefef;
+    margin-bottom: 20px;
+}
+
 #workshops .workshops-item i {
   font-size: 60px;
   color: #4A4656;
@@ -303,7 +338,7 @@ img.profilside-billede {
     margin-bottom: 40px;
 }
 
-#page {}
+#page .container { margin-top: 40px;}
 
 #page-sidebar {
     margin-top: 75px;
@@ -314,32 +349,6 @@ img.profilside-billede {
 
 #page-content {
     margin-bottom: 40px;
-}
-/*--
-	service Start
---*/
-#workshops {
-  text-align: center;
-  padding: 90px 0;
-}
-#workshops .workshops-item {
-  padding-bottom: 30px;
-}
-#workshops .workshops-item i {
-  font-size: 60px;
-  color: #4A4656;
-}
-#workshops .workshops-item h4 {
-  padding-top: 20px;
-  margin: 0;
-  color: #666;
-}
-#workshops .workshops-item p {
-  color: #888;
-  padding-top: 10px;
-  margin: 0;
-  font-size: 14px;
-  line-height: 1.8;
 }
 
 /*--

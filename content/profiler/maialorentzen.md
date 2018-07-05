@@ -7,4 +7,4 @@ image = "profiler/maia500.jpg"
 email = "maia@radbonobos.org"
 weight = 2
 +++
-Maia har en baggrund i Amnesty International og Greenpeace, hvor hun arbejdede med digital mobilisering og aktivisme. Hun er en af grundlæggerne af tech-aktivist netværket DO:TOPIA, som arrangerer sikkerheds og programmerings-workshops særligt henvendt til kvinder og minoriteter. Hun beskæftiger sig desuden med online had-fællesskaber, digitial chikane og hvordan man modvirker det. Maia er desuden er erfaren taler og oplægsholder, med et talent for at designe involverende workshops og læringsforløb.
+Maia har en baggrund i Amnesty International og Greenpeace, hvor hun arbejdede med digital mobilisering og aktivisme. Hun er en af grundlæggerne af tech-aktivist netværket DO:TOPIA, som arrangerer sikkerheds- og programmerings-workshops, særligt henvendt til kvinder og minoriteter. Hun beskæftiger sig desuden med online had-fællesskaber, digital chikane og hvordan man modvirker det. Maia er desuden en erfaren taler og oplægsholder med et talent for at designe involverende workshops og læringsforløb.

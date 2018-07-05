@@ -6,21 +6,58 @@
     <!-- Intro -->
     <div class="row">
       <div class="section-title">
-        <h2>{{ .Site.Data.workshops.title }}</h2>
+        <h2>Workshops</h2>
+	<p>Vi tilbyder en lang række workshops - fra én til én undervisning til store arrangementer for flere hundrede mennesker inden for temaerne:</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-12 col-md-12 workshop-emner">
+	<ul>
+	  <li>IT-sikkerhed</li>
+	  <li>Privatliv på nettet</li>
+	  <li>Fake news og kildekritik</li>
+	  <li>Digital chikane</li>
+	  <li>Online had-fællesskaber</li>
+	  <li>Sociale mediers indflydelse på individ og samfund</li>
+	</ul>
+
       </div>
     </div>
 
     <!-- Content -->
     <div class="row">
-      {{ range .Site.Data.workshops.content }}
-      <div class="col-sm-6 col-md-3">
+      <div class="section-title"><p>Her er en oversigt over de formater, vi tilbyder.<br /> Tag fat i os og hør nærmere, hvis du har særlige behov.</p></div>
+
+      <div class="col-sm-6 col-md-6">
         <div class="workshops-item">
-          <i class="{{ .icon }} icon-gradient"></i>
-          <h4>{{ .name }}</h4>
-          <p>{{ .text }}</p>
+          <div class="icon"><i class="fa fa-user-astronaut icon-gradient"></i>
+            <h4>Træning af trænerne</h4></div>
+          <p>Hvis du underviser på skoler, biblioteker, ungdomsuddannelser mv., tilbyder vi efteruddannelse, der klæder dig på til at formidle it-sikkerhed og digital dannelse til jeres elever eller målgruppe. Vi formidler både praktiske og tekniske kompetencer samt didaktiske greb, der ruster dig til at formidle teknisk stof på en lettilgængelig måde.</p>
         </div>
       </div>
-      {{ end }}
+      <div class="col-sm-6 col-md-6">
+        <div class="workshops-item">
+          <div class="icon"><i class="fa fa-paper-plane icon-gradient"></i>
+            <h4>Temadage</h4></div>
+          <p>Det kan være udfordrende at undervise børn og unge i internetkultur og digital sikkerhed. Vi har god erfaring med at organisere temadage, hvor der tilrettelægges enten et interaktivt format som <a href="/projekter/kryptoløb/">kryptoløbet</a> eller en sammensætning af foredrag, filmvisninger og workshops. Temadagene blander informativt og praktisk indhold, der aktiverer og inddrager de unge.</p>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-6">
+        <div class="workshops-item">
+          <div class="icon"><i class="fa fa-bullhorn icon-gradient"></i>
+            <h4>Foredrag</h4></div>
+          <p>Vi tilbyder foredrag og diskussionsoplæg om emner som digital sikkerhed og risiko, privatliv på nettet, fake news, kildekritik, digital chikane, online mobning og sociale mediers påvirkning af samfundet. Vi tilpasser oplæggenes form og kompleksitet til publikummet. Kontakt os, hvis der er specifikke emner, I gerne vil have et oplæg om, da vores trænere har et bredt vidensfelt og er erfarne offentlige talere.</p>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-6">
+        <div class="workshops-item">
+          <div class="icon"><i class="fa fa-rocket icon-gradient"></i>
+            <h4>Workshops</h4></div>
+          <p>Emner som digital sikkerhed og privatliv på nettet er komplekse og kan virke skræmmende på folk, der ikke har en dyb teknisk forståelse. Vi har god erfaring med at formidle emnerne gemmen praktiske workshops, hvor deltagerne får redskaber, der gør det nemt at passe på sig selv samtidig med, at deltagerne taler sammen om, hvorfor det er nødvendigt. Se eksempler på workshops vi har holdt her.</p>
+        </div>
+      </div>
     </div>
+
   </div>
 </section>
