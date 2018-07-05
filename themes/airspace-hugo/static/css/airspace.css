@@ -231,13 +231,10 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 
 #workshops .section-title {
-    margin-bottom:20px;
+    margin: 20px 0 20px 0;
     text-align:center;
 }
 
-#workshops .workshop-emner {
-    margin-bottom: 30px;
-}
 
 #workshops .workshop-emner ul {
     list-style: none;
