@@ -1,5 +1,5 @@
 +++
-title = "Kryproparties"
+title = "Kryptoparties"
 summary = "Vi har siden 2012 bidraget til kryptoparties hos PROSA, Medirådet for Børn og Unge, Ungdommens folkemøde, CPH:DOX og mange andre."
 date = "2015-08-03T13:39:46+02:00"
 image = "projekter/cryptoparty300.jpg"
